@@ -6,7 +6,7 @@ import Sidebar from '../components/sidebar';
 import { Analytics } from '@vercel/analytics/react';
 
 const kaisei = localFont({
-  src: '../public/fonts/kaisei-tokumin-latin-700-normal.woff2',
+  src: '../public/fonts/francois-one-v21-latin-regular.woff2',
   weight: '700',
   variable: '--font-kaisei',
   display: 'swap',
@@ -14,18 +14,18 @@ const kaisei = localFont({
 
 export const metadata: Metadata = {
   title: {
-    default: 'Lee Robinson',
-    template: '%s | Lee Robinson',
+    default: 'Melkonian Industries',
+    template: '%s | Melkonian Industries',
   },
   description: 'Developer, writer, and creator.',
   openGraph: {
-    title: 'Lee Robinson',
+    title: 'Melkonian Industries',
     description: 'Developer, writer, and creator.',
-    url: 'https://leerob.io',
-    siteName: 'Lee Robinson',
+    url: 'https://davemelk.com',
+    siteName: 'Melkonian Industries',
     images: [
       {
-        url: 'https://leerob.io/og.jpg',
+        url: 'https://davemelk.com',
         width: 1920,
         height: 1080,
       },
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: 'Lee Robinson',
+    title: 'Melkonian Industries',
     card: 'summary_large_image',
   },
   icons: {
@@ -70,9 +70,9 @@ export default function RootLayout({
         kaisei.variable
       )}
     >
-      <body className="antialiased max-w-4xl mb-40 flex flex-col md:flex-row mx-4 mt-8 md:mt-20 lg:mt-32 lg:mx-auto">
+      <body className="antialiased max-w-4xl mb-40 flex flex-col md:flex-row lg:mx-auto">
         <Sidebar />
-        <main className="flex-auto min-w-0 mt-6 md:mt-0 flex flex-col px-2 md:px-0">
+        <main className="flex-auto min-w-0 mt-14 flex-col px-2 md:px-0">
           {children}
           <Analytics />
         </main>

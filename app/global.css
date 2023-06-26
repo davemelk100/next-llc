@@ -9,8 +9,15 @@
 
 html {
   min-width: 360px;
+  font-family: Francois One;
 }
-
+p {
+  font-size: 22px;
+}
+.text-3xl {
+  font-size: 4.5rem;
+  line-height: 1;
+}
 .prose .anchor {
   @apply absolute invisible no-underline;
 

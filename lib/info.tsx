@@ -1,22 +1,38 @@
-import me from '../app/avatar.jpg';
+import me from '../public/images/logo.png';
 
-export const name = 'Lee Robinson';
+export const name = 'Melkonian Industries';
 export const avatar = me;
 export const about = () => {
   return (
     <>
-      Hey, I'm Lee. I'm the <b>VP of Developer Experience at Vercel</b> where my
-      team helps developers build a faster web.
+      Melkonian Industries provides consulting services backed by seasoned leadership and 
+      a wide variety of technical and design expertise.   
     </>
   );
 };
 export const bio = () => {
   return (
     <>
-      I'm a Next.js contributor and help lead our open-source communities. I'm
-      passionate about frontend development and have created courses on React,
-      Next.js, and web development. I'm an advisor and investor in early stage
-      startups.
+      We fit the solution to achieve your goals. Our engagements are based on learning about you,
+      as our client, so we can support your organization's quest for effectiveness, efficiency,
+      and innovation.
+    </>
+  );
+};
+export const offerings = () => {
+  return (
+    <>
+      Our offerings include software consulting, software development, graphic and logo design,
+      user experience design and development, user interface expertise, music composition, recording
+      and production. 
+    </> 
+  );  
+};
+export const clients = () => {
+  return (
+    <>
+      Melkonian Industries has partnered with many clients, including D\CAL, Onu One, Optum, Dewpoint,
+      Delta Dental of Michigan, ArtPrize, Jaroof and many more.
     </>
   );
 };
